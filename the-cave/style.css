@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+  background: radial-gradient(circle at center, rgb(53, 53, 53), #000000);
+  /* mix-blend-mode: exclusion; */
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden
+}
+
+#app {
+  font-family:  'Bebas Neue', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+}
+
+.title {
+  font-size: 8rem;
+  text-transform: uppercase;
+}
